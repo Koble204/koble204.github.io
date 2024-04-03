@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/auth.css">
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar" style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10000;
+        ">
+            <div class="navbar-content">
+                <div class="navbar-logo">
+                    <a href="">
+                        <h1><span>Fogn</span><span>Shop</span></h1>
+                    </a>
+                </div>
+                <div class="navbar-tab">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li>
+                            <div class="dropdown-menu">
+                                <p>Shoes</p>
+                                <div class="dropdown-item">
+                                    <a href="">Nike</a>
+                                    <a href="">Adidas</a>
+                                    <a href="">Balenciaga</a>
+                                    <a href="">Gucci</a>
+                                    <a href="">Louis Vuitton</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="/pages/about.html">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-lg">
+                    <a href="/pages/auth.html" class="btn-lg">
+                        <box-icon name='user' type='solid' class="icon-lg"></box-icon>
+                        <p id="userDisplay"></p>
+                    </a>
+                    <ul>
+                        <li><box-icon name='search'></box-icon></li>
+                        <li><a href=""><box-icon name='cart'></box-icon>1</a></li>
+                        <li><a href=""><box-icon name='heart' type='solid'></box-icon>3</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="card-about">
+            <div class="about-content">
+                <p>NguyenTrongPhong</p>
+                <p>Phone: 093.222.2222</p>
+                <p>Address: Dinh Bang, Tu Son, Bac Ninh</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FognShop - Cart</title>
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/cart.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar" style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10000;
+        ">
+            <div class="navbar-content">
+                <div class="navbar-logo">
+                    <a href="">
+                        <h1><span>Fogn</span><span>Shop</span></h1>
+                    </a>
+                </div>
+                <div class="navbar-lg">
+                    <a href="/index.html" class="btn-lg">
+                        <box-icon name='arrow-back' class="icon-lg"></box-icon>
+                        <p>Back to home</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section style="margin-top: 30vh;">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <th>Action</th>
+                        <th>Image</th>
+                        <th>Shoes</th>
+                        <th>Price</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody id="cartItems">
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <div class="card-apply">
+            <div class="coupon-content">
+                <h3>Apply coupon</h3>
+                <div class="coupon-field">
+                    <input type="text" placeholder="Enter your coupon...">
+                    <button class="btn-coupon">Apply</button>
+                </div>
+            </div>
+            <div class="payment-content">
+                <table>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td id="totalPrice"></td>
+                    </tr>
+                </table>
+                <button class="btn-payment">Continue to payment</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <p>Copyright 2023 © All Right Reserved</p>
+                <p>Design by FognVed</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/cart.js"></script>
+</body>
+</html>

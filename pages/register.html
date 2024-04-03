@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FognShop - Register</title>
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/auth.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar" style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10000;
+        ">
+            <div class="navbar-content">
+                <div class="navbar-logo">
+                    <a href="">
+                        <h1><span>Fogn</span><span>Shop</span></h1>
+                    </a>
+                </div>
+                <div class="navbar-lg">
+                    <a href="/index.html" class="btn-lg">
+                        <box-icon name='arrow-back' class="icon-lg"></box-icon>
+                        <p>Back to home</p>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="card-login">
+            <div class="login-content">
+                <h1>Register</h1>
+                <form action="" class="form-login" id="form-register">
+                    <div class="username" tabindex="0">
+                        <label for="">Username</label>
+                        <div class="box-user">
+                            <box-icon type='solid' name='user'></box-icon>
+                            <input type="text" name="username" id="username" placeholder="Enter your username...">
+                        </div>
+                    </div>
+                    <div class="password" tabindex="1">
+                        <label for="">Password</label>
+                        <div class="box-pass">
+                            <box-icon name='lock-alt' type='solid'></box-icon>
+                            <input type="password" name="password" id="password" placeholder="Enter your password...">
+                        </div>
+                    </div>
+                    <div class="btn-login">
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+                <a href="./auth.html">Have an account?</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="/assets/js/register.js"></script>
+</body>
+</html>

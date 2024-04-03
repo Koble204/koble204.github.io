@@ -1,0 +1,71 @@
+.card-product img {
+    width: 12vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: azure;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+.btn-remove a, .card-product-quantity {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-product-quantity {
+    width: 50px;
+    height: 40px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.card-apply {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: space-around;
+}
+
+.coupon-content h3 {
+    margin-bottom: 13px;
+}
+
+.coupon-field input {
+    padding: 8px 10px;
+    font-size: 1em;
+}
+
+.coupon-field button {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background: #2165a5;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.payment-content .btn-payment {
+    margin-top: 12px;
+    padding: 10px;
+    border: none;
+    background-color: coral;
+    font-size: 0.8em;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: 10vh;
+}

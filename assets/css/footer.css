@@ -1,0 +1,16 @@
+.footer {
+    background: #000;
+    width: auto;
+    padding: 4vh;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    font-size: 1em;
+    color: #fff;
+}
+

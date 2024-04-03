@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-login {
+    padding: 30px 40px;
+}
+
+.card-login {
+    box-shadow: 10px 10px 30px #000;
+    border-radius: 30px;
+}
+
+.login-content h1 {
+    margin: 4vh;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.form-login .username, .password{
+    margin-bottom: 25px;
+}
+
+.username {
+    position: relative;
+}
+
+.username label {
+    position: absolute;
+    top: -21%;
+    left: 6%;
+    font-size: 1em;
+    padding: 0 5px;
+    background: #fff;
+    font-weight: 600;
+}
+
+.username input {
+    width: 25vh;
+    height: 4vh;
+    margin-left: 14px;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+}
+
+.box-user {
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.password {
+    position: relative;
+}
+
+.password label {
+    position: absolute;
+    top: -21%;
+    left: 6%;
+    font-size: 1em;
+    padding: 0 5px;
+    background: #fff;
+    font-weight: 600;
+}
+
+.password input {
+    width: 25vh;
+    height: 4vh;
+    margin-left: 14px;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+}
+
+.box-pass {
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.btn-login button {
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    background: #97b8ff;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    padding: 12px;
+}
+
+.btn-login button:hover {
+    background: #495f91;
+}
+
+.btn-login {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-content a:hover {
+    color:#97b8ff;
+    text-decoration: underline;
+}
+
+.login-content p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.login-content p::after,
+.login-content p::before {
+    content: '';
+    border-bottom: 2px solid #cccbcb;
+    width: 140px;
+    height: 1px;
+    margin: 0 10px;
+}
+
+.lg-or a {
+    margin: 30px;
+}
+
+.lg-or {
+    display: flex;
+    justify-content: center;
+}

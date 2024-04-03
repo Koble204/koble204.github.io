@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.contact-bar {
+    background-color: #252b42;
+    padding: 15px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 20px;
+}
+
+.contact-pe {
+    display: flex;
+}
+
+.contact-phone {
+    display: flex;
+    margin-right: 20px;
+}
+
+.contact-email {
+    display: flex;
+}
+
+.icon-pe {
+    margin-right: 8px;
+}
+
+.content-pe {
+    font-weight: 500;
+    color: white;
+}
+
+.contact-in {
+    display: flex;
+}
+
+.contact-in ul {
+    display: flex;
+}
+
+.content-in {
+    font-weight: 500;
+    margin-right: 18px;
+    color: white;
+}
+
+.icon-in {
+    margin-right: 20px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 0 0.8px #0000002a;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    margin-left: 30px;
+}
+
+.navbar-logo h1 span:nth-child(1) {
+    color: rgb(97, 197, 164);
+}
+
+.navbar-logo h1 span:nth-child(2) {
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-radius: 25px;
+    padding: 4px;
+}
+
+.navbar-logo h1 {
+    font-size: 40px;
+}
+
+.navbar-tab ul {
+    display: flex;
+}
+
+.navbar-tab ul li {
+    margin-right: 28px;
+    font-size: 18px;
+}
+
+.navbar-tab ul li:hover,
+.navbar-tab ul li a:hover {
+    color: aqua;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.dropdown-menu p {
+    color: #000;
+}
+
+.dropdown-menu p:hover {
+    color: aqua;
+    cursor: pointer;
+    transition: 0.2s all;
+} 
+
+.navbar-tab .dropdown-item {
+    display: none;
+    width: 180px;
+    position: fixed;
+    border: 1.5px solid #000;
+    padding: 10px 20px;
+    border-radius: 14px;
+    box-shadow: 5px 5px #000000ad;
+}
+
+/* .dropdown-menu p {
+    padding-bottom: 20px;
+} */
+
+.dropdown-item {
+    background-color: white;
+}
+
+.dropdown-item a {
+    display: grid;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.dropdown-menu .dropdown-item a:hover {
+    cursor: pointer;
+    color: #252b42;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.dropdown-menu:hover .dropdown-item {
+    display: block;
+}
+
+.dropdown-item p {
+    margin-bottom: 12px;
+}
+
+.navbar-lg {
+    display: flex;
+}
+
+.btn-lg {
+    display: flex;
+    align-items: center;
+}
+
+.btn-lg .icon-lg {
+    margin-right: 13px;
+}
+
+.btn-lg p {
+    color: #000;
+}
+
+.btn-lg p:hover {
+    font-weight: 400;
+    text-decoration: underline;
+    transition: 0.8s all;
+}
+
+.navbar-lg ul {
+    display: flex;
+}
+
+.navbar-lg ul li {
+    margin-right: 20px;
+}
+
+.navbar-lg ul li:nth-child(1) {
+    margin-left: 30px;
+}
+
+
+
+
+
