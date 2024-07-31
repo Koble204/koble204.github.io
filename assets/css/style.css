@@ -13,7 +13,6 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    text-align: center;
     padding: 1em 0;
 }
 
@@ -42,7 +41,6 @@ header p {
 
 .team-member {
     margin: 1em;
-    text-align: center;
 }
 
 .team-member img {
